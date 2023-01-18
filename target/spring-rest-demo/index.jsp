@@ -12,9 +12,11 @@
 </head>
 <body>
 
-    <h1>HELLO REST API</h1>
+<h1>HELLO REST API</h1>
 
-    <a href="${pageContext.request.contextPath}/test/hello">Hello Rest Api</a>
+<a href="${pageContext.request.contextPath}/test/hello">Hello Rest Api</a>
+<hr>
+<a href="${pageContext.request.contextPath}/api/students">Get Students as JSON</a>
 
 </body>
 </html>
